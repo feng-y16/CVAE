@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('--test-batch-size', type=int, default=500, help='Batch size for testing')
     parser.add_argument('--n-classes', type=int, default=10, help='Number of classes')
     parser.add_argument('--z-dim', type=int, default=40, help='Dimension of z')
-    parser.add_argument('--epochs', type=int, default=100, help='Number of training epochs')
+    parser.add_argument('--epochs', type=int, default=1000, help='Number of training epochs')
     parser.add_argument('--test-interval', type=int, default=1, help='Interval of doing testing')
     parser.add_argument('--n-samples', type=int, default=10, help='Number of samples for MC')
     args = parser.parse_args()
